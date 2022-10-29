@@ -1,0 +1,86 @@
+html,body {
+    font-family: 'Tangerine', serif;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left bottom,#03034f,#07779c) ;
+  }
+  h1{
+    font-size: 40px;
+    padding: 20px 0 0 0;
+    text-align: center;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+  }
+  div{
+    font-family: 'Tangerine', serif;
+    padding: 120px 0 0 0 ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .bu{
+    margin: 20px 0;
+    padding:20px ;
+  }
+  #cl{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    cursor:pointer;
+  }
+  #cl:hover{
+    color: white;
+    background-color: #a3a3f0;
+  }
+  button{
+    margin: 0 20px 0 0;
+    border: 2px solid black;
+    border-radius: 10%;
+  }
+  #White{
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-color: #0d0d3f;
+    border-style: solid;
+    color: #a1a1dd;
+  }
+  #Black{
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-color: #0d0d3f;
+    border-style: solid;
+    color: #a1a1dd;
+    
+  }
+  #Green{
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-color: #0d0d3f;
+    color: #e2e2f3;
+    border-style: solid;
+  }
+  @media(max-width: 500px) {
+    h1{
+        font-size: 30px;
+    }
+    #White,#Black,#Green{
+        font-size: 25px;
+        height: 75px;
+        width: 75px;
+    }
+  }
